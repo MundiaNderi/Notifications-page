@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+ body {
+    background-color: #F7FAFD;
+    flex-shrink: 0;
+    justify-content: center;
+    margin: 0 auto;
+ }
