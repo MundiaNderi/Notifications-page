@@ -21,7 +21,7 @@ export default {
     },
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
     fontFamily: {
-        overpass: ['Plus Jakarta Sans', 'sans-serif'],
+        jakarta: ['Plus Jakarta Sans', 'sans-serif'],
       }, 
   },
   plugins: [],
