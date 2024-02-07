@@ -5,7 +5,6 @@ import Anna from './assets/images/avatar-anna-kim.webp';
 import Kimberly from './assets/images/avatar-kimberly-smith.webp';
 import Nathan from './assets/images/avatar-nathan-peterson.webp';
 import Rizky from './assets/images/avatar-rizky-hasanuddin.webp';
-import { Form } from 'react-bootstrap';
 import Chess from './assets/images/image-chess.webp'
 
 export default function Notifcations() {
@@ -58,11 +57,9 @@ export default function Notifcations() {
                     <strong>Rizky Hasunudin  </strong>
                     sent you a private message</p>
                 <p>5 days ago</p>
-                <Form className='hidden w-full bg-LightGrayishBlue1' >
-                    <textarea className='bg-LightGrayishBlue1 items-center py-6 '>Hello, thanks for setting up the Chess club. I've been a member for 
+                    <p className='bg-LightGrayishBlue1 items-center py-6 px-6 mt-1 border border-rose-500 '>Hello, thanks for setting up the Chess club. I've been a member for 
                         a few weeks now and I'm already having lot's of fun and improving my game.
-                    </textarea>
-                </Form>
+                    </p>
             </div>
         </div>
 
