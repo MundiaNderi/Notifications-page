@@ -15,9 +15,9 @@ export default function Notifcations() {
             <div>
                 <img src={Mark} alt='Marks Profile picture'  className='w-10 h-10 ' />
             </div>
-            <div className=' border-rose-600 items-start ml-4' >
+            <div className=' items-start ml-4' >
                 <p className=' ' >
-                 <strong>Mark Webber </strong>
+                 <strong className=' hover:text-blue ' >Mark Webber </strong>
                  reacted to your recent post My first tournament today!
                 </p>
                 <p className=''>1m ago</p>
@@ -28,8 +28,8 @@ export default function Notifcations() {
             <div>
             <img src={Angela} alt='Angelas Profile Picture' className='pr-1 w-10 h-10'  />
             </div>
-            <div className='ml-4 border border-rose-500'>
-                <h1>
+            <div className='ml-4 '>
+                <h1 className='' >
                     <strong>Angela Gray </strong>
                     followed you</h1>
                 <p className='mr-28' >5 min ago</p>
@@ -39,7 +39,7 @@ export default function Notifcations() {
         {/*Jacob Thompson */}
         <div className='items-center flex flex-row rounded-md bg-veryLightGrayishBlue px-6  py-6 ' >
             <img src={Jacob} alt='Jacobs profile picture' className='mr-4 w-10 h-10' />
-            <div className='md:mr-4 border border-rose-500 '>
+            <div className='md:mr-4'>
                 <p> 
                     <strong>Jacob Thompson </strong>
                     has joined your group 
@@ -57,7 +57,7 @@ export default function Notifcations() {
                     <strong>Rizky Hasunudin  </strong>
                     sent you a private message</p>
                 <p>5 days ago</p>
-                    <p className='bg-LightGrayishBlue1 items-center py-6 px-6 mt-1 border border-rose-500 '>Hello, thanks for setting up the Chess club. I've been a member for 
+                    <p className='bg-LightGrayishBlue1 items-center py-6 px-6 mt-1 border rounded-md'>Hello, thanks for setting up the Chess club. I've been a member for 
                         a few weeks now and I'm already having lot's of fun and improving my game.
                     </p>
             </div>
