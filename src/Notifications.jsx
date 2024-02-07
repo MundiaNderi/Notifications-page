@@ -50,7 +50,7 @@ export default function Notifcations() {
         </div>
 
         {/*Rizky */}
-        <div className='flex flex-row items-center mt-6 px-6 bg-veryLightGrayishBlue rounded-md py-6 w-full ' >
+        <div className='flex flex-row items-center mt-6 px-6rounded-md py-6 w-full ' >
             <img src={Rizky} alt='Rizkys profile picture' className='mr-4 w-10 h-10 ' />
             <div>
                 <p>
@@ -64,7 +64,7 @@ export default function Notifcations() {
         </div>
 
         {/*Kimberly Smith */}
-        <div className='flex flex-row items-center mt-6 px-6 bg-veryLightGrayishBlue rounded-md py-6' >
+        <div className='flex flex-row items-center mt-6 px-6 rounded-md py-6' >
             <img src={Kimberly} alt='kimberlys profile picture' className='mr-4 w-10 h-10 ' />
             <div className='md:mr-6'>
                 <p>
@@ -76,7 +76,7 @@ export default function Notifcations() {
         </div>
 
         {/*Nathan Peterson */}
-        <div className='flex flex-row px-6 mt-6 bg-veryLightGrayishBlue rounded-md py-6 ' >
+        <div className='flex flex-row px-6 mt-6 rounded-md py-6 ' >
             <img src={Nathan} alt='Nathans profile picture' className='mr-4 w-10 h-10 ' />
             <div>
                 <p className='font-sm'>
@@ -89,7 +89,7 @@ export default function Notifcations() {
         </div>
 
         {/*Anna Kim */}
-        <div className='flex flex-row mt-6 px-6 items-center bg-veryLightGrayishBlue rounded-md py-6 ' >
+        <div className='flex flex-row mt-6 px-6 items-center rounded-md py-6 ' >
             <img src={Anna} alt='Annas Profile Picture' className='mr-4 w-10 h-10 ' />
             <div>
                 <p>
